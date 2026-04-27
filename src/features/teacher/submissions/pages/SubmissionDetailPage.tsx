@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useParams, useNavigate, Link } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import { ArrowLeft, CheckCircle } from 'lucide-react'
 import { mockSubmissions } from '@/lib/mock/submissions'
 import { mockExercises } from '@/lib/mock/exercises'
@@ -21,7 +21,7 @@ export function SubmissionDetailPage() {
   const exercise = submission ? mockExercises.find((e) => e.id === submission.exerciseId) : null
 
   const [scores, setScores] = useState<Record<string, number>>({})
-  const [feedbacks, setFeedbacks] = useState<Record<string, string>>({})
+  const [, setFeedbacks] = useState<Record<string, string>>({})
   const [overallFeedback, setOverallFeedback] = useState(submission?.overallFeedback ?? '')
   const [saved, setSaved] = useState(false)
 

@@ -5,7 +5,6 @@ import { PaymentStatusBadge } from '@/components/shared/StatusBadge'
 import { Card, CardContent } from '@/components/ui/card'
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Button } from '@/components/ui/button'
-import type { Payment } from '@/types'
 
 type Filter = 'all' | 'paid' | 'unpaid' | 'overdue'
 
