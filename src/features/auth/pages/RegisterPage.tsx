@@ -28,8 +28,8 @@ export function RegisterPage() {
 
   return (
     <div>
-      <h2 className="text-lg font-bold tracking-tight text-ntc-dark mb-1">Đăng ký tài khoản</h2>
-      <p className="text-sm text-muted-foreground mb-6">Điền thông tin để tạo tài khoản học tập</p>
+      <h2 className="text-2xl font-bold tracking-tight text-ntc-dark mb-1">Tạo tài khoản</h2>
+      <p className="text-sm text-muted-foreground mb-8">Điền thông tin để bắt đầu học tiếng Trung</p>
 
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="space-y-1.5">

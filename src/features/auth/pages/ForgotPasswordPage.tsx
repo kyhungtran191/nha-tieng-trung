@@ -19,8 +19,8 @@ export function ForgotPasswordPage() {
 
   return (
     <div>
-      <h2 className="text-lg font-bold tracking-tight text-ntc-dark mb-1">Quên mật khẩu</h2>
-      <p className="text-sm text-muted-foreground mb-6">Nhập email để nhận link đặt lại mật khẩu</p>
+      <h2 className="text-2xl font-bold tracking-tight text-ntc-dark mb-1">Quên mật khẩu?</h2>
+      <p className="text-sm text-muted-foreground mb-8">Nhập email để nhận link đặt lại mật khẩu</p>
       <form onSubmit={(e) => { e.preventDefault(); setSent(true) }} className="space-y-4">
         <div className="space-y-1.5">
           <Label htmlFor="email">Email</Label>
